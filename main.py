@@ -34,11 +34,11 @@ class DWSExporterApp(tk.Tk):
             self.cfg.read(CONFIG_PATH, encoding="utf-8")
         
         self.cfg.setdefault("DATABASE", {
-            "host": "127.0.0.1",
-            "port": "3306",
-            "user": "root",
-            "password": "admin",
-            "database": "db_sds",
+            "host": "localhost",
+            "port": "1111",
+            "user": "abc",
+            "password": "abc",
+            "database": "abc",
             "charset": "utf8"
         })
         self.cfg.setdefault("EXPORT", {})
